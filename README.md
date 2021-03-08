@@ -12,7 +12,7 @@ This project, a server that emits realtime prices for mushrooms on a given time 
 
 ## Production server
 
-Run `npm start` for a prod realtime price server. Server starts up at `https://socket-server-project.ktibe.me`.
+Run `npm start` for a prod realtime price server. Server starts up at `https://socket-server-trade.ktibe.me`.
 
 ## GitHub
 

@@ -27,7 +27,7 @@ const io = require('socket.io')(server, {
         // Below origin to be used when developing locally:
         // origin: 'http://localhost:4200',
         // Below origin to be used on production server i e on Debian:
-        origin: 'https://me-angular-project.ktibe.me',
+        origin: 'https://trade-angular.ktibe.me',
         methods: ['GET', 'POST']
     }
 });

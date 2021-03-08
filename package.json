@@ -1,5 +1,5 @@
 {
-  "name": "socket-server-project",
+  "name": "socket-server-trade",
   "version": "1.0.0",
   "description": "Server realtime price",
   "main": "server-project.js",
@@ -25,5 +25,8 @@
     "eslint-plugin-react": "^7.21.5",
     "javascript-style-guide": "^1.0.1"
   },
-  "eslintIgnore": ["*copy*.js", "*old*.js"]
+  "eslintIgnore": [
+    "*copy*.js",
+    "*old*.js"
+  ]
 }
