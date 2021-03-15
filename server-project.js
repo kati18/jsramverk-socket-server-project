@@ -25,9 +25,9 @@ const io = require('socket.io')(server, {
     */
     cors: {
         // Below origin to be used when developing locally:
-        // origin: 'http://localhost:4200',
+        origin: 'http://localhost:4200',
         // Below origin to be used on production server i e on Debian:
-        origin: 'https://trade-angular.ktibe.me',
+        // origin: 'https://trade-angular.ktibe.me',
         methods: ['GET', 'POST']
     }
 });
@@ -35,9 +35,9 @@ const io = require('socket.io')(server, {
 const stock = require("./stock.js");
 
 // Below port to be used when developing locally:
-// const port = 5000;
+const port = 5000;
 // Below port to be used on production server i e on Debian:
-const port = 8400;
+// const port = 8400;
 let users = {};
 
 /** Definition of a route handler '/':
@@ -54,15 +54,15 @@ app.get('/', (req, res) => {
 
 var trattKantarell = {
     name: 'Trattkantarell',
-    rate: 1.002,
-    variance: 0.6,
+    rate: 1.00002,
+    variance: 0.2,
     startingPoint: 20,
 };
 
 var stensopp = {
     name: 'Stensopp',
-    rate: 1.001,
-    variance: 0.4,
+    rate: 1.00001,
+    variance: 0.1,
     startingPoint: 20,
 };
 
